@@ -3415,7 +3415,7 @@ __metadata:
     "@types/yargs": ^17.0.28
     "@yarnpkg/esbuild-plugin-pnp": ^3.0.0-rc.14
     ansi-escapes: ^5.0.0
-    axios: ^0.28.0
+    axios: ^0.28.1
     boxen: ^7.0.0
     chalk: ^5.0.1
     depcheck: ^1.4.6
@@ -3431,7 +3431,7 @@ __metadata:
     ora: ^7.0.1
     organize-imports-cli: ^0.10.0
     prettier: ^2.7.1
-    tar: ^6.2.1
+    tar: ^7.0.0
     tmp-promise: ^3.0.3
     typescript: 4.6.4
     validate-npm-package-name: ^4.0.0
@@ -3816,7 +3816,7 @@ __metadata:
     "@types/js-yaml": ^4.0.8
     "@types/lodash-es": ^4.17.9
     "@types/node": ^18.7.18
-    axios: ^0.28.0
+    axios: ^0.28.1
     chalk: ^5.0.1
     depcheck: ^1.4.6
     eslint: ^8.56.0
@@ -4055,7 +4055,7 @@ __metadata:
     "@types/jest": ^29.0.3
     "@types/node": ^18.7.18
     "@types/qs": 6.9.8
-    axios: ^0.28.0
+    axios: ^0.28.1
     boxen: ^7.0.0
     chalk: ^5.0.1
     depcheck: ^1.4.6
@@ -4320,7 +4320,7 @@ __metadata:
     "@types/node": ^18.7.18
     "@types/tar": ^6.1.11
     "@types/terminal-link": ^1.2.0
-    axios: ^0.28.0
+    axios: ^0.28.1
     chalk: ^5.0.1
     decompress: ^4.2.1
     depcheck: ^1.4.6
@@ -4335,7 +4335,7 @@ __metadata:
     mime-types: ^2.1.35
     organize-imports-cli: ^0.10.0
     prettier: ^2.7.1
-    tar: ^6.2.1
+    tar: ^7.0.0
     terminal-link: ^3.0.0
     tmp-promise: ^3.0.3
     typescript: 4.6.4
@@ -4549,7 +4549,7 @@ __metadata:
     "@types/lodash-es": ^4.17.9
     "@types/node": ^18.7.18
     "@types/tar": ^6.1.11
-    axios: ^0.28.0
+    axios: ^0.28.1
     depcheck: ^1.4.6
     eslint: ^8.56.0
     glob: ^8.0.3
@@ -4559,7 +4559,7 @@ __metadata:
     lodash-es: ^4.17.21
     organize-imports-cli: ^0.10.0
     prettier: ^2.7.1
-    tar: ^6.2.1
+    tar: ^7.0.0
     tmp-promise: ^3.0.3
     typescript: 4.6.4
     zod: ^3.22.3
@@ -5943,6 +5943,15 @@ __metadata:
     wrap-ansi: ^8.1.0
     wrap-ansi-cjs: "npm:wrap-ansi@^7.0.0"
   checksum: 4a473b9b32a7d4d3cfb7a614226e555091ff0c5a29a1734c28c72a182c2f6699b26fc6b5c2131dfd841e86b185aea714c72201d7c98c2fba5f17709333a67aeb
+  languageName: node
+  linkType: hard
+
+"@isaacs/fs-minipass@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "@isaacs/fs-minipass@npm:4.0.1"
+  dependencies:
+    minipass: ^7.0.4
+  checksum: 5d36d289960e886484362d9eb6a51d1ea28baed5f5d0140bbe62b99bac52eaf06cc01c2bc0d3575977962f84f6b2c4387b043ee632216643d4787b0999465bf2
   languageName: node
   linkType: hard
 
@@ -8734,14 +8743,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^0.28.0":
-  version: 0.28.0
-  resolution: "axios@npm:0.28.0"
+"axios@npm:^0.28.1":
+  version: 0.28.1
+  resolution: "axios@npm:0.28.1"
   dependencies:
     follow-redirects: ^1.15.0
     form-data: ^4.0.0
     proxy-from-env: ^1.1.0
-  checksum: d3782377512e67510787bf325b664f16c8b595ccdbcf52fca58433fbd082e33c3ef58a19e7d016ce92666be5a1a5ea82028add0cb841077981df9617bd071615
+  checksum: 5115a38d79064d07437c5a28f15841e3607634040e3120ec06a2c4367a7d07cf213b16496eab53b6f58ebc5fb377a440ba9ed4782529b14449a1e285734bfb54
   languageName: node
   linkType: hard
 
@@ -9628,6 +9637,13 @@ __metadata:
   version: 2.0.0
   resolution: "chownr@npm:2.0.0"
   checksum: c57cf9dd0791e2f18a5ee9c1a299ae6e801ff58fee96dc8bfd0dcb4738a6ce58dd252a3605b1c93c6418fe4f9d5093b28ffbf4d66648cb2a9c67eaef9679be2f
+  languageName: node
+  linkType: hard
+
+"chownr@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "chownr@npm:3.0.0"
+  checksum: fd73a4bab48b79e66903fe1cafbdc208956f41ea4f856df883d0c7277b7ab29fd33ee65f93b2ec9192fc0169238f2f8307b7735d27c155821d886b84aa97aa8d
   languageName: node
   linkType: hard
 
@@ -17728,6 +17744,13 @@ env-cmd@toddbluhm/env-cmd:
   languageName: node
   linkType: hard
 
+"minipass@npm:^7.0.4, minipass@npm:^7.1.0":
+  version: 7.1.2
+  resolution: "minipass@npm:7.1.2"
+  checksum: 2bfd325b95c555f2b4d2814d49325691c7bee937d753814861b0b49d5edcda55cbbf22b6b6a60bb91eddac8668771f03c5ff647dcd9d0f798e9548b9cdc46ee3
+  languageName: node
+  linkType: hard
+
 "minizlib@npm:^1.3.3":
   version: 1.3.3
   resolution: "minizlib@npm:1.3.3"
@@ -17744,6 +17767,16 @@ env-cmd@toddbluhm/env-cmd:
     minipass: "npm:^3.0.0"
     yallist: "npm:^4.0.0"
   checksum: f1fdeac0b07cf8f30fcf12f4b586795b97be856edea22b5e9072707be51fc95d41487faec3f265b42973a304fe3a64acd91a44a3826a963e37b37bafde0212c3
+  languageName: node
+  linkType: hard
+
+"minizlib@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "minizlib@npm:3.0.1"
+  dependencies:
+    minipass: ^7.0.4
+    rimraf: ^5.0.5
+  checksum: da0a53899252380475240c587e52c824f8998d9720982ba5c4693c68e89230718884a209858c156c6e08d51aad35700a3589987e540593c36f6713fe30cd7338
   languageName: node
   linkType: hard
 
@@ -22361,7 +22394,7 @@ env-cmd@toddbluhm/env-cmd:
   languageName: node
   linkType: hard
 
-"tar@npm:^6.1.11, tar@npm:^6.1.2, tar@npm:^6.2.1":
+"tar@npm:^6.1.11, tar@npm:^6.1.2":
   version: 6.2.1
   resolution: "tar@npm:6.2.1"
   dependencies:
@@ -22372,6 +22405,20 @@ env-cmd@toddbluhm/env-cmd:
     mkdirp: ^1.0.3
     yallist: ^4.0.0
   checksum: f1322768c9741a25356c11373bce918483f40fa9a25c69c59410c8a1247632487edef5fe76c5f12ac51a6356d2f1829e96d2bc34098668a2fc34d76050ac2b6c
+  languageName: node
+  linkType: hard
+
+"tar@npm:^7.0.0":
+  version: 7.2.0
+  resolution: "tar@npm:7.2.0"
+  dependencies:
+    "@isaacs/fs-minipass": ^4.0.0
+    chownr: ^3.0.0
+    minipass: ^7.1.0
+    minizlib: ^3.0.1
+    mkdirp: ^3.0.1
+    yallist: ^5.0.0
+  checksum: 5e0bf32a1309b1d0efa65a3017b1bc892518e7af563afd7cc3819a279e31db8cd9660ae5159c356934c9aa88f209dd3c760b07b87de21f38b47655aeae3ddf70
   languageName: node
   linkType: hard
 
@@ -24003,6 +24050,13 @@ env-cmd@toddbluhm/env-cmd:
   version: 4.0.0
   resolution: "yallist@npm:4.0.0"
   checksum: 343617202af32df2a15a3be36a5a8c0c8545208f3d3dfbc6bb7c3e3b7e8c6f8e7485432e4f3b88da3031a6e20afa7c711eded32ddfb122896ac5d914e75848d5
+  languageName: node
+  linkType: hard
+
+"yallist@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "yallist@npm:5.0.0"
+  checksum: eba51182400b9f35b017daa7f419f434424410691bbc5de4f4240cc830fdef906b504424992700dc047f16b4d99100a6f8b8b11175c193f38008e9c96322b6a5
   languageName: node
   linkType: hard
 
